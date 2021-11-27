@@ -98,7 +98,10 @@ h1 {
     
 
 }
-
+img{
+    width: 100px;
+    height: auto;
+}
 .second-header {
     display: flex;
 align-content: center; }
@@ -110,8 +113,14 @@ align-content: center; }
 .cone-text {
     grid-area: text;
     margin: 0;
+    text-align: center;
 }
 .cone2 { 
     grid-area: cone2;
     margin:0;
+    text-align: center;
+ }
+
+ .second-nav{
+     text-decoration: white;
  }
